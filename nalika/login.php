@@ -1,3 +1,15 @@
+<?php
+  //include database connection page
+  require("db_connect.php");
+  if(isset($_POST['login'])){
+    $email = $password = '';
+    
+    $email=$_POST['email'];
+    $surname=$_POST['password'];
+    echo
+  }
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -95,15 +107,11 @@
                             <div class="form-group">
                                 <label class="control-label" for="password">Password</label>
                                 <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
-                                <span class="help-block small">Yur strong password</span>
+                                <span class="help-block small">Your Password</span>
                             </div>
-                            <div class="checkbox login-checkbox">
-                                <label>
-										<input type="checkbox" class="i-checks"> Remember me </label>
-                                <p class="help-block small">(if this is a private computer)</p>
-                            </div>
-                            <button class="btn btn-success btn-block loginbtn">Login</button>
-                            <a class="btn btn-default btn-block" href="#">Register</a>
+                            
+                            <input type="submit" id="login" class="btn btn-success btn-block loginbtn" value="Login">
+                            <a class="btn btn-default btn-block" href="signup.php">Register</a>
                         </form>
                     </div>
                 </div>
