@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login | Nalika - Material Admin Template</title>
+    <title>Login Here</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="back-link back-backend">
-                    <a href="index.html" class="btn btn-primary">Back to Dashboard</a>
+                    <a href="index.php" class="btn btn-primary">Back to Dashboard</a>
                 </div>
             </div>
         </div>
@@ -81,16 +81,16 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
             <div class="col-md-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="text-center m-b-md custom-login">
-                    <h3>PLEASE LOGIN TO APP</h3>
+                    <h3 style="color: yellow;">PLEASE LOGIN TO VOTE</h3>
                     <p>This is the best app ever!</p>
                 </div>
-                <div class="hpanel">
-                    <div class="panel-body">
+                <div class="hpanel" style="border-radius: 10px;">
+                    <div class="panel-body" style="border-radius: 10px;">
                         <form action="#" id="loginForm">
                             <div class="form-group">
-                                <label class="control-label" for="username">Username</label>
-                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
-                                <span class="help-block small">Your unique username to app</span>
+                                <label class="control-label" for="email">Email</label>
+                                <input type="email" placeholder="example@gmail.com" title="Please enter you email" required="" value="" name="email" id="email" class="form-control">
+                                <span class="help-block small">The email you used for registration</span>
                             </div>
                             <div class="form-group">
                                 <label class="control-label" for="password">Password</label>
